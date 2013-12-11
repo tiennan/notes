@@ -11,7 +11,7 @@ ref: [Dive into python](http://woodpecker.org.cn/diveintopython/)
  - HashTable in Java
  - {} in Javascript
 
-Exp:
+Code:
 
     d = {'key': 'value'}
     del d['key']        # delete item with specific 'key'
@@ -20,7 +20,7 @@ Exp:
 ### List
  - ArrayList in Java
 
-Exp:
+Code:
 
     li = ['a', 'b', 'c', 'd', 'e']
     li[1:3]               # ['b', 'c']
@@ -45,7 +45,7 @@ Exp:
  - No methods in tuple
  - Can be a key in dictionary
 
-Exp:
+Code:
 
     t = ('a', 'b', 'c', 'd')
     list(t)              # [1, 2, 3, 4] // tuple -> list
