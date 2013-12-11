@@ -20,7 +20,6 @@ ref: [Dive into python](http://woodpecker.org.cn/diveintopython/)
  - ArrayList in Java
 
 
-
     li = ['a', 'b', 'c', 'd', 'e']
     li[1:3]               # ['b', 'c']
     li[1:-1]              # ['b', 'c', 'd']
@@ -48,16 +47,4 @@ ref: [Dive into python](http://woodpecker.org.cn/diveintopython/)
     t = ('a', 'b', 'c', 'd')
     list(t)              # [1, 2, 3, 4] // tuple -> list
     tuple(t)             # (1, 2, 3, 4) // list -> tuple
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
