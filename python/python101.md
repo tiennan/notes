@@ -13,9 +13,13 @@ ref: [Dive into python](http://woodpecker.org.cn/diveintopython/)
 
 Code:
 
-    d = {'key': 'value'}
-    del d['key']        # delete item with specific 'key'
+    d = {'k1': 'v1', 'k2': 'v2'}
+    del d['key1']       # delete item with specific 'key'
     d.clear()           # clear all items in dictionary
+    d.items()           # [('k2', 'v2'), ('k1', 'v1')]
+    d.keys()            # ['k2', 'k1']
+    d.values()          # ['v2', 'v1']
+    ["%s=%s" % (k, v) for k, v in d.items()] # ['k2=v2', 'k1=v1']
 
 ### List
  - ArrayList in Java
@@ -50,6 +54,16 @@ Code:
     t = ('a', 'b', 'c', 'd')
     list(t)              # [1, 2, 3, 4] // tuple -> list
     tuple(t)             # (1, 2, 3, 4) // list -> tuple
+
+### Print format
+ - print is the same as printf in C
+ - "the format string" % ('the tuple')
+
+Code:
+
+    print "%s is %d years old" % ('bob', 17) # bob is 17 years old
+    print "Price: %.2f" % 50.4625 # Price: 50.46
+    
     
 
     
